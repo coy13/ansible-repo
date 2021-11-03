@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  - name: Install apache2
+    apt:
+       name: apache2
